@@ -11,7 +11,7 @@ export default function Edit() {
   const [product, setProduct] = useState({}); //Donde se almacena la información
   const router = useRouter();
   const [open, setOpen] = useState(false);
-  const { alert, setAlert, toggleAlert} = useAlert();
+  const { alert, setAlert, toggleAlert } = useAlert();
 
   React.useEffect(() => {
     //El id se obtendrá desde la URL
